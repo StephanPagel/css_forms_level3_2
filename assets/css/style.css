@@ -1,0 +1,72 @@
+/* font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    background: grey;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    width: 22vw;
+    border-radius: 10px;
+    box-shadow: 3px 3px black;
+    margin: 25vh auto auto 40vw;
+}
+
+form a:first-child,
+form a:nth-of-type(2) {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    background: rgb(50, 134, 244);
+    box-shadow: 2px 2px black;
+    text-decoration: none;
+}
+
+form a:first-child:hover,
+form a:nth-of-type(2):hover,
+form>input:hover {
+    background: turquoise;
+}
+
+form p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 40px 0;
+}
+
+form div input {
+    background: lightgrey;
+    color: white;
+    padding-bottom: 20px;
+}
+
+form a {
+    display: block;
+    padding: 20px 0;
+    text-align: right;
+    color: white;
+}
+
+form>input {
+    width: 100%;
+    background: rgb(50, 134, 244);
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+form div input:nth-last-of-type(4) {
+    margin-bottom: 18px;
+}
